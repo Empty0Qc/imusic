@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:i_music/controller/person_data_controller.dart';
 import 'package:i_music/widgets/widget_server.dart';
 
 import 'MusicPage.dart';

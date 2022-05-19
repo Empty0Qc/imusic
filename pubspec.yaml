@@ -37,6 +37,7 @@ dependencies:
   get: ^4.6.1
   camera: ^0.9.4+21
   video_player: ^2.4.0
+  json_serializable: ^6.2.0
 
 dev_dependencies:
   flutter_test:
@@ -49,6 +50,7 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^1.0.0
   flutter_native_splash: ^2.1.6
+  build_runner: ^2.1.10
 flutter_native_splash:
   background_image: assets/splash.png
 

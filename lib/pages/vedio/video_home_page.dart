@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:video_player/video_player.dart';
 
 import 'BumbleBeeRemoteVideo.dart';
 import 'ButterFlyAssetVideo.dart';
-import 'ControlsOverlay.dart';
 
 class VideoHomePage extends StatelessWidget {
   const VideoHomePage({Key? key}) : super(key: key);

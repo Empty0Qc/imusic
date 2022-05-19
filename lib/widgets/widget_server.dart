@@ -19,4 +19,15 @@ class WidgetService {
           label: 'person_outline')
     ];
   }
+
+  /// learn
+  static getFlutterLogo() {
+    return const FlutterLogo(
+      size: 160,
+      textColor: Colors.orange,
+      style: FlutterLogoStyle.horizontal,
+      duration: Duration(seconds: 2),
+      curve: Curves.ease,
+    );
+  }
 }
