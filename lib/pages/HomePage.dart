@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:i_music/controller/person_data_controller.dart';
+import 'package:i_music/pages/ExplorePage.dart';
 import 'package:i_music/widgets/widget_server.dart';
 
 import 'MusicPage.dart';
@@ -14,7 +13,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   int _currentIndex = 0;
-  List<Widget> bottomPages = [MusicPage(), Text('explore'), Text('mine')];
+  List<Widget> bottomPages = [MusicPage(), ExplorePage(), Text('mine')];
 
   @override
   Widget build(BuildContext context) {
